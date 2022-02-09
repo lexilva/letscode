@@ -11,6 +11,7 @@ while (count <= 10){
     count ++
 }
 */
+//Resposta com Do While
 let count = 1
 do{
     console.log(count)
