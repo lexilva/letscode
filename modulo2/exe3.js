@@ -1,6 +1,6 @@
 class Ponto {
     constructor(x, y){
-        if(isNaN(x) || isNaN(y)) throw "Base e altura precisam ser números!";
+        if(isNaN(x) && isNaN(y)) throw "Base e altura precisam ser números!";
         this.x = x;
         this.y = y;
     }

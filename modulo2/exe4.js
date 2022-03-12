@@ -4,9 +4,7 @@ class Contato{
         this.telefone = telefone
         this.email = email
     }
-    
 }
-
 class Agenda extends Contato{
     addContato(agenda,contato){
         var agenda = agenda
